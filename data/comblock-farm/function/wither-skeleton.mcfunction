@@ -6,6 +6,7 @@ kill @e[type=minecraft:ghast,distance=..128]
 kill @e[type=minecraft:blaze,distance=..128]
 kill @e[type=minecraft:skeleton,distance=..128]
 kill @e[type=minecraft:magma_cube,distance=..128]
+kill @e[type=minecraft:hoglin,distance=..128]
 
 # Clear drops from killed mobs
 kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:rotten_flesh"}}]
@@ -24,3 +25,5 @@ kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:blaze_rod"}}]
 kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:bow"}}]
 kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:arrow"}}]
 kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:magma_cream"}}]
+kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:porkchop"}}]
+kill @e[type=item, distance=..128, nbt={Item:{id:"minecraft:leather"}}]
